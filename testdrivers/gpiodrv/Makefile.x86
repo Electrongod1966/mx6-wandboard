@@ -1,0 +1,9 @@
+obj-m += gpiodrv.o
+
+CWD := $(shell pwd)
+KDIR=/lib/modules/$(shell uname -r)/build
+
+
+all:
+	make -C $(KDIR) M=$(CWD) modules
+

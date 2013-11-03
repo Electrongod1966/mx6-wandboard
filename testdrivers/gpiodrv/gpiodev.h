@@ -1,0 +1,8 @@
+#ifndef GPIODEV_H
+#define GPIODEV_H
+
+#define GPIODEV_IOC_MAGIC  'w'
+
+#define GPIODEV_IOC_SET_LED			_IOW(GPIODEV_IOC_MAGIC, 1, __u8)
+#define GPIODEV_IOC_RESET_LED			_IOW(GPIODEV_IOC_MAGIC, 2, __u8)
+#endif

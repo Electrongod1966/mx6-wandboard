@@ -1,0 +1,1 @@
+cmd_/home/gudigarg/gpiodrv/gpiodrv.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.2.0-2-common/scripts/module-common.lds --build-id  -o /home/gudigarg/gpiodrv/gpiodrv.ko /home/gudigarg/gpiodrv/gpiodrv.o /home/gudigarg/gpiodrv/gpiodrv.mod.o
